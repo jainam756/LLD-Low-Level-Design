@@ -5,6 +5,7 @@ Java implementations with requirements, responsibilities, diagrams, complete exe
 | Problem | Implementation and notes |
 | --- | --- |
 | 01. Tic-Tac-Toe | [Open revision package](01-tic-tac-toe/README.md) |
+| 02. Parking Lot | [Open revision package](02-parking-lot/README.md) |
 
 Requires **JDK 17 or newer**. No external libraries or build-tool downloads are needed.
 
@@ -13,19 +14,19 @@ From this repository folder in PowerShell:
 ```powershell
 ./01-tic-tac-toe/run.ps1 -TestOnly
 ./01-tic-tac-toe/run.ps1
+./02-parking-lot/run.ps1 -TestOnly
+./02-parking-lot/run.ps1
 ```
 
 ## GitHub setup and manual push
 
 This folder is a standalone Git repository with branch `main` and origin:
 `https://github.com/jainam756/LLD-Low-Level-Design.git`.
-No push has been performed. Files are initially uncommitted so you can review them.
+Changes are committed locally. Push manually when ready.
 
 ```powershell
 git status
 git remote -v
-git add .
-git commit -m "Add Java Tic-Tac-Toe LLD revision package"
 git push -u origin main
 ```
 
