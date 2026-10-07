@@ -6,6 +6,7 @@ Java implementations with requirements, responsibilities, diagrams, complete exe
 | --- | --- |
 | 01. Tic-Tac-Toe | [Open revision package](01-tic-tac-toe/README.md) |
 | 02. Parking Lot | [Open revision package](02-parking-lot/README.md) |
+| 03. Snake and Ladder | [Open revision package](03-snake-and-ladder/README.md) |
 
 Requires **JDK 17 or newer**. No external libraries or build-tool downloads are needed.
 
@@ -16,6 +17,8 @@ From this repository folder in PowerShell:
 ./01-tic-tac-toe/run.ps1
 ./02-parking-lot/run.ps1 -TestOnly
 ./02-parking-lot/run.ps1
+./03-snake-and-ladder/run.ps1 -TestOnly
+./03-snake-and-ladder/run.ps1
 ```
 
 ## GitHub setup and manual push
